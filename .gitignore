@@ -1,0 +1,57 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+env_*/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_convert
+*.nbconvert.ipynb
+
+# --- Data (big files, not versioned in git) ---
+data/raw/
+data/processed/
+data/external/
+
+# --- Models & outputs ---
+models/
+reports/figures/
+
+# Logs & cache
+*.log
+*.out
+*.err
+*.pickle
+*.joblib
+*.h5
+*.pkl
+*.npy
+*.npz
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# --- Environment files ---
+*.egg-info/
+dist/
+build/
+.eggs/
+*.manifest
+*.spec
+
+# --- Other ---
+*.tmp
+*.bak
