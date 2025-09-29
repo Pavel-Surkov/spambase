@@ -18,9 +18,8 @@ env_*/
 *.nbconvert.ipynb
 
 # --- Data (big files, not versioned in git) ---
-data/raw/
-data/processed/
-data/external/
+data/**/*.data
+!data/**/*.sample.data
 
 # --- Models & outputs ---
 models/
